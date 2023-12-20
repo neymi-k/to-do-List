@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do-List</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
 </head>
 <body>
-    
+    <section id="home-login">
+            <form id="login">
+               <div id="image-user-login"> <img src="./img/user-sing-up.svg" alt="image-user"></div>
+                <div id="data-login"><input type="text" id="username" placeholder="Usuario" required>
+                <input type="password" id="password" placeholder="Contraseña" required>
+                <a href="./pg/task.html" id="access"><p>Acceso</p></a>
+                <a href="" id="sign-in"> > Registrarse</a> </div> 
+            </form>
+    </section>
+    <section>
+        <div id="category-task"></div>
+    </section>
+    <section>
+        <ul id="task-list"></ul>
+    </section>
+    <script src="./js/to-do-list.js"></script>
 </body>
 </html>

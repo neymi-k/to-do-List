@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(180deg, #E996A5 0.88%, rgba(101, 36, 183, 0.41) 48.21%, #FEFEFE 100%);
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5C3A6;
+    border-radius: 20px;
+    margin: 150px auto 150px auto;
+    width: 360px;
+    height: 600px;
+}
+#image-user-login{
+    width: 323px;
+    height: 191px;
+    background: linear-gradient(180deg, #E996A5 0%, rgba(101, 36, 183, 0.62) 46.35%, #B77E89 100%); 
+    border-radius: 20px;
+
+}
+#login img{
+    width: 148px;
+    height: 145px;
+    margin: 23px 85px 23px 85px;
+}
+
+#data-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#username{
+    width: 210px;
+    height: 37px;
+    border-radius: 20px;
+    margin: 100px 90px 0px 90px;
+    background-color: #00000033;
+    border: transparent;
+}
+#password{
+    width: 210px;
+    height: 37px;
+    border-radius: 20px;
+    margin: 20px 90px 0px 90px;
+    background-color: #00000033;
+    border: transparent;
+}
+
+#access{
+    width: 186px;
+    height: 37px;
+    border-radius: 20px;
+    margin: 40px 102px 0px 102px ;
+    border: transparent;
+    background: #292244;
+    color: rgba(252, 252, 252, 0.81); 
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sign-in{
+    width: 90px;
+    margin: 35px 318px 0px 62px ;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.75);
+}
